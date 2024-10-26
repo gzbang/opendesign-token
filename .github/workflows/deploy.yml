@@ -45,7 +45,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
-          target_branch: gh-pages
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GHPAGAE_TOKEN  }}
+          token: ${{ secrets.GHPAGAE_TOKEN  }}
+          branch: gh-pages
+          folder: dist
