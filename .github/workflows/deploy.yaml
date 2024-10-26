@@ -27,7 +27,7 @@ jobs:
         run: pnpm build
 
       - name: Deploy to GitHub Pages
-        uses: gzbang/ghaction-github-pages@v4
+        uses: gzbang/opendesign-token@v4
         with:
           target_branch: gh-pages
           build_dir: dist
