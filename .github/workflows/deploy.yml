@@ -38,4 +38,3 @@ jobs:
           token: ${{ secrets.GHPAGAE_TOKEN  }}
           branch: gh-pages
           folder: dist
-          
